@@ -21,6 +21,6 @@ class QuoteBloc extends Bloc<QuoteRequestEvent, QuoteState> {
         // emit(QuoteStateError(msg: 'Error!!'));
       });
       //emit error state
-    })
+    });
   }
 }
